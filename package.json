@@ -1,0 +1,16 @@
+{
+  "name": "type_speed",
+  "version": "1.0.0",
+  "description": "project to calculate typing speed",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "clear; tsc index.ts; node index.js"
+  },
+  "author": "Kody Byrd",
+  "license": "ISC",
+  "dependencies": {
+    "@types/readline-sync": "^1.4.8",
+    "readline-sync": "^1.4.10"
+  }
+}
