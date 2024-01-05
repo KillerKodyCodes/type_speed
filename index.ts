@@ -1,6 +1,5 @@
 import * as readlineSync from 'readline-sync';
-import { grossSpeed } from './grossCalc';
-
+import { getSpeed } from './getSpeed';
 
 function main(){
     console.log('Welcome to the Typing Speed Calculator!');
@@ -17,9 +16,14 @@ function main(){
     //right now there is no check to see if you typed correctly
     //it just parses your input via the spaces and considers all of those substrings as correct words
     //grossSpeed provides the wpm value
-    const speed = grossSpeed(userInput, elapsedTime);
+
+
+    const [gross,net]=getSpeed(targetString, userInput, elapsedTime);
+
     console.log(`You typed ${userInput.length} words in ${elapsedTime} seconds!`)
-    console.log(`Your typing speed is: ${speed.toFixed(2)} words per minute.`);
+    console.log(`Your gross typing speed is: ${gross.toFixed(2)} words per minute.`);
+    console.log(`Your net typing speed is: ${net.toFixed(2)} words per minute.`);
+
 }
 
 main();
