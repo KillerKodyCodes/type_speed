@@ -5,7 +5,7 @@
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "clear; tsc index.ts; node index.js"
+    "start": "clear && tsc index.ts && node index.js"
   },
   "author": "Kody Byrd",
   "license": "ISC",
