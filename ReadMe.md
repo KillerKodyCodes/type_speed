@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is designed to calculate typing speed in a similar fashion to nitro type.The application will prompt the user with a string sourced from an API. Then it will allow the user to type the string while keeping time. The prompt will not allow the user to continue on with an incorrect character, and will instead wait for the user to provide the correct character. This way, a gross WPM calculation will be quite accurate becuase the errors will have taken time to correct rather than artificially penalizing the speed for errors. 
+This project is designed to calculate typing speed in a similar fashion to nitro type.The application will prompt the user with a string sourced from an API. Then it will allow the user to type the string while keeping time. The prompt will not allow the user to continue on with an incorrect character, and will instead wait for the user to provide the correct character. This way, a gross WPM calculation will be quite accurate because the errors will have taken time to correct rather than artificially penalizing the speed for errors. 
 
 ## Project Setup
 
