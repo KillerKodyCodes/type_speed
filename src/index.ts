@@ -1,6 +1,8 @@
 import * as readlineSync from 'readline-sync';
 import { getSpeed } from './lib/getSpeed.js';
 
+
+//DEPRECATED
 function main(){
     console.log('Welcome to the Typing Speed Calculator!');
     const targetString: string = "Hello World! This is sample text for the speed calculator";
