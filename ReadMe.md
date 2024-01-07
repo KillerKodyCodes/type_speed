@@ -15,5 +15,5 @@ You will need to install tsc for typescript compilation: ```npm install -g types
 ## Running the project
 
 To run the project, use the command ```npm run dev``` which will start the typescript compiler in watch mode. This will keep your compiled Javascript in sync with your Typescript edits. 
-Next, open another terminal and use the command ```npm run start``` to begin execution of the compiled index.js file. 
+Next, open another terminal and use the command ```npm run start```. This will start http-server and server the project to ```http://localhost:8080```. Navigate to the /src directory to view the GUI.
 If you only want to compile the typescript use the command ```npm run build``` and look at the compiled files in the ```/build``` folder. 

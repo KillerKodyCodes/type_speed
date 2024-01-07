@@ -1,4 +1,5 @@
-// app.ts
+//TODO: abstract some of this functionality out to individual functions.
+//This would increase the readability and scalability of this code. 
 document.addEventListener("DOMContentLoaded", function () {
     const sentenceElement = document.getElementById("sentence");
     const userInputElement = document.getElementById("userInput");
