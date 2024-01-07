@@ -1,7 +1,0 @@
-I recommend running this project in Windows Subsystem for Linux. You can follow a quick guide here with the commands you need: https://www.omgubuntu.co.uk/how-to-install-wsl2-on-windows-10
-
-You will need to install node. Follow the steps here, NVM is a useful package for node versions: https://learn.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wsl
-
-You will need to install tsc for typescript compilation: npm install -g typescript
-
-to run the program, use the node script 'npm run start' this will compile your typescript files, and execute index.js
